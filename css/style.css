@@ -1,0 +1,119 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+section, footer{
+	padding: 80px 0;
+}
+.navbar-brand, .navbar-nav li a{
+	color: white;
+	font-weight: bold;
+}
+
+.bienvenida .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+.bienvenida .navbar-toggle {
+	border: 1px solid #FFF;
+}
+
+.fondo{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+#myModal, #myModal2{
+	color: black;
+}
+
+.carousel-inner .item img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.bienvenida{
+	background-image: url('../img/portada.jpg');
+	height: 600px;
+}
+
+.seccion4{
+	background-image: url(../img/all.jpg);
+	height: 700px;
+}
+
+.text1{
+	padding-top: 180px;
+}
+
+.btn, #error{
+	background-color: #41521F;
+	color: #FFF;
+	font-weight: bolder;
+}
+
+#error{
+	border: none;
+	margin-top: 20px;
+}
+.contenido{
+	padding: 60px;
+}
+
+.contenido span{
+	letter-spacing: 8px;
+	font-weight: bolder;
+}
+
+.contenido i{
+	padding-bottom: 20px;
+}
+.precio, i{
+	color: #FFF;
+	font-size: 5em;
+}
+
+.blanco h1, .blanco h2, .blanco i, .blanco a, footer span, footer a{
+	color: #A89F68;
+	font-weight: bolder;
+}
+.cafe{
+	background-color: #A89F68;
+	color: white;
+}
+.cafe h1, .cafe h2, .cafe h3 {
+	color: #41521F;
+	font-weight: bolder;
+}
+
+.cafe ul, .cafe span{
+	color: black;
+}
+.precio sup, .precio sub{
+	font-size: 0.3em;
+}
+
+.precio sup{
+	position: relative;
+	top: -2em;
+}
+
+footer{
+	background-color: #41521F;
+	color: white;
+}
+
+footer p, .seccion3 p{
+	font-weight: bolder;
+}
+
+#myCarousel, #hola{
+	width: 700px;
+	height: 400px;
+}
